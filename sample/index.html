@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/all.css" rel="stylesheet"> <!--load all styles -->
+    <link rel="stylesheet" href="css/lightslider.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav id="nav" class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><span class="color_brand">JI YEON</span> KIM</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="mailto:jiyeonkim.net@gmail.com">Contact</a></li>
+            <li class="youtube"><a href="https://youtube.com/channel/UCOVzrR2DgGvm87qf_SPVdgg/videos" target="_blank"><i class="fab fa-youtube"></i> Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="content">
+      <div id="home" class="section">
+        <!--<img src="image/home/home.jpg">-->
+        <ul id="light-slider">
+          <li>
+            <img src="image/home/1.jpg">
+          </li>
+          <li>
+            <img src="image/home/2.jpg">
+          </li>
+          <li>
+            <img src="image/home/3.png">
+          </li>
+          <li>
+            <img src="image/home/4.png">
+          </li>
+          <li>
+            <img src="image/home/5.jpg">
+          </li>
+        </ul>
+      </div>
+
+      <div id="education" class="section container">
+        <h1> EDUCATION </h1>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="grid" data-masonry='{"itemSelector": ".grid-item"}'>
+              <div class="grid-item">
+                <img src="image/profile/1.jpg" class="img-zoomable">
+              </div>
+              <div class="grid-item">
+                <img src="image/profile/2.jpg" class="img-zoomable">
+              </div>
+              <div class="grid-item">
+                <img src="image/profile/3.jpg" class="img-zoomable">
+              </div>
+              <div class="grid-item">
+                <img src="image/profile/4.jpg" class="img-zoomable">
+              </div>
+              <div class="grid-item">
+                <img src="image/profile/5.jpg" class="img-zoomable">
+              </div>
+              <div class="grid-item">
+                <img src="image/profile/6.jpg" class="img-zoomable">
+              </div>
+              <div class="grid-item">
+                <img src="image/profile/7.jpg" class="img-zoomable">
+              </div>
+              <div class="grid-item">
+                <img src="image/profile/8.jpg" class="img-zoomable">
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="namespace">
+              <h2> Ji Yeon Kim </h2>
+              <h3> 김지연 (金祉延) </h3>
+            </div>
+
+            <ul id="profile-language" class="nav nav-pills" role="tablist">
+              <li role="presentation" class="active"><a href="#profile-lang-ko" aria-controls="profile-lang-ko" role="tab" data-toggle="tab">한국어</a></li>
+              <li role="presentation"><a href="#profile-lang-en" aria-controls="profile-lang-en" role="tab" data-toggle="tab">ENGLISH</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div role="tabpanel" id="profile-lang-ko" class="tab-pane active">
+                <div class="profile-item">
+                  <h3> <i class="fas fa-graduation-cap color_brand"></i> 학력 </h3>
+                  <ul class="profile-list">
+                    <li> 서울교육대학교 초등교육학 학사 </li>
+                    <li> 교육부 아동학 학사 </li>
+                    <li> 연세대학교 일반대학원 아동가족학 학사 </li>
+                  </ul>
+                </div>
+
+                <div class="profile-item">
+                  <h3> <i class="fas fa-trophy color_brand"></i> 수상 </h3>
+                  <ul class="profile-list">
+                    <li> 한국열린유아교육학회 우수논문상 </li>
+                    <li> 서울공립초등학교장 올해의 교사상 </li>
+                    <li> 교육부-한국교육환경보호원 생명존중캠페인 최우수상 </li>
+                    <li> 육아정책연구소 아이폴 최우수정책제안상 </li>
+                  </ul>
+                </div>
+
+                <div class="profile-item">
+                  <h3> <i class="fas fa-chalkboard-teacher color_brand"></i> 강연 및 발표 </h3>
+                  <ul class="profile-list">
+                    <li> 한국열린유아교육학회 학술대회 및 세미나 </li>
+                    <li> 다준다연구소 석사논문발표회 </li>
+                  </ul>
+                </div>
+
+                <div class="profile-item">
+                  <h3> <i class="fas fa-flask color_brand"></i> 연구 </h3>
+                  <ul class="profile-list">
+                    <li> 육아정책연구소 </li>
+                    <li> 연세대학교 심바이오틱라이프텍연구원 </li>
+                  </ul>
+                </div>
+
+                <div class="profile-item">
+                  <h3> <i class="fas fa-book-open color_brand"></i> 교육 </h3>
+                  <ul class="profile-list">
+                    <li> 서울공립초등학교 교사 </li>
+                    <li> 연세어린이생활지도연구원 보조교사 </li>
+                  </ul>
+                </div>
+
+                <div class="profile-item">
+                  <h3> <i class="fas fa-hands-helping color_brand"></i> 봉사 </h3>
+                  <ul class="profile-list">
+                    <li> 서울시립어린이병원 재활병동 및 발달센터 </li>
+                    <li> 국립중앙도서관 장애인정보누리터 </li>
+                    <li> 한국자폐인사랑협회 인식개선캠페인  </li>
+                  </ul>
+                </div>
+              </div>
+              <div role="tabpanel" id="profile-lang-en" class="tab-pane">
+                <div class="profile-item">
+                  <h3> <i class="fas fa-graduation-cap color_brand"></i> EDUCATION </h3>
+                  <ul class="profile-list">
+                    <li> M.A., Child and Family Studies (Specialization: Early Childhood Education), Yonsei University  </li>
+                    <li> B.A., Children's Studies, Ministry of Education </li>
+                    <li> B.A., Elementary Education Studies, Seoul National University of Education </li>
+                  </ul>
+                </div>
+
+                <div class="profile-item">
+                  <h3> <i class="fas fa-trophy color_brand"></i> AWARDS </h3>
+                  <ul class="profile-list">
+                    <li> Outstanding Poster Award, Korea Open Association for Early Childhood Education  </li>
+                    <li> Teacher of the Year Award, Principal of Seoul Elementary School  </li>
+                    <li> Top Excellence Prize at Life-esteemed Education Contest, Ministry of Education  </li>
+                    <li> Best Policy Proposal Award, iPoll of Korea Institute of Child Care & Education(KICCE)  </li>
+                  </ul>
+                </div>
+
+                <div class="profile-item">
+                  <h3> <i class="fas fa-chalkboard-teacher color_brand"></i> PRENSENTATIONS </h3>
+                  <ul class="profile-list">
+                    <li> Academic Conference and Seminar on Korea Open Association for Early Childhood Education </li>
+                    <li> Master's Thesis Presentation on DAJUNDA Research Institute </li>
+                  </ul>
+                </div>
+
+                <div class="profile-item">
+                  <h3> <i class="fas fa-flask color_brand"></i> RESEARCH </h3>
+                  <ul class="profile-list">
+                    <li> Korea Institute of Child Care & Education (KICCE) </li>
+                    <li> Yonsei Institute of Symbiotic Life-TECH </li>
+                  </ul>
+                </div>
+
+                <div class="profile-item">
+                  <h3> <i class="fas fa-book-open color_brand"></i> TEACHING </h3>
+                  <ul class="profile-list">
+                    <li> Seoul Public Elementary School Teacher </li>
+                    <li> Yonsei Child Development Research Institute Assistant Teacher </li>
+                  </ul>
+                </div>
+
+                <div class="profile-item">
+                  <h3> <i class="fas fa-hands-helping color_brand"></i> COMMUNITY SERVICE </h3>
+                  <ul class="profile-list">
+                    <li> Seoul Child Hospital Rehabilitation Ward & Development Center  </li>
+                    <li> Information center for the disabled on National Library in Korea  </li>
+                    <li> Awareness Campaign on Autism Society for Korea  </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="background_gray">
+        <div id="media" class="section container">
+          <h1> MEDIA </h1>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <ul id="media-language" class="nav nav-pills" role="tablist">
+                <li role="presentation" class="active"><a href="#media-lang-ko" aria-controls="media-lang-ko" role="tab" data-toggle="tab">한국어</a></li>
+                <li role="presentation"><a href="#media-lang-en" aria-controls="media-lang-en" role="tab" data-toggle="tab">ENGLISH</a></li>
+              </ul>
+
+              <div class="tab-content">
+                <div role="tabpanel" id="media-lang-ko" class="tab-pane active">
+                  <div class="media-item">
+                    <h3> <i class="fas fa-trophy color_brand"></i> 수상 </h3>
+                    <div class="media-subitem">
+                      <ul class="media-list">
+                        <li> 2020 한국을 빛낼 인물 대상 아나운서 부문 </li>
+                        <li> 2019 대한민국 청년연설대회 청중공감상(최다 득표) 및 우수연설상 </li>
+                        <li> 2012 지속가능청년연합선정 최고의 기사상 </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="media-item">
+                    <h3> <i class="fas fa-microphone-alt color_brand"></i> 아나운서/ MC/ 기자 </h3>
+                    <div class="media-subitem">
+                      <h4 class="media-subtitle"> <i><u>뉴스</u></i> </h4>
+                      <table class="media-subitem-category">
+                        <tr rowspan="3">
+                          <td class="media-subitem-category-title"> 아나운서 </td>
+                          <td>CBC NEWs</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>SDATV </td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>드림온TV </td>
+                        </tr>
+                        <tr rowspan="3">
+                          <td class="media-subitem-category-title"> 인턴기자 </td>
+                          <td> KTV </td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>경향신문</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>한국고용정보원(리포터)</td>
+                        </tr>
+                        <tr>
+                          <td class="media-subitem-category-title">내레이터</td>
+                          <td>육아방송</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="media-subitem">
+                      <h4 class="media-subtitle"> <i><u>방송</u></i> </h4>
+                      <table class="media-subitem-category">
+                        <tr>
+                          <td class="media-subitem-category-title"> 라디오 </td>
+                          <td> 관악FM (PD & MC)</td>
+                        </tr>
+                        <tr>
+                          <td class="media-subitem-category-title"> 광고 </td>
+                          <td>쿠쿠전자</td>
+                        </tr>
+                        <tr>
+                          <td class="media-subitem-category-title"> 캠페인 </td>
+                          <td>딜라이브 2020 선거방송</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="media-subitem">
+                      <h4 class="media-subtitle"> <i><u>행사</u></i> </h4>
+                      <table class="media-subitem-category">
+                        <tr rowspan="2">
+                          <td class="media-subitem-category-title"> 학술대회 </td>
+                          <td> UN SDG 4.2 연합학술대회 </td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>KT Cloud Frontier 2019</td>
+                        </tr>
+                        <tr>
+                          <td class="media-subitem-category-title"> 강연 </td>
+                          <td>국회의원 주최 서초 명사 특강 </td>
+                        </tr>
+                        <tr>
+                          <td class="media-subitem-category-title"> 이벤트 </td>
+                          <td>시청자미디어재단 인재 채용</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+
+                  <div class="media-item">
+                    <h3> <i class="fas fa-walking color_brand"></i> 모델 / 홍보대사 </h3>
+                    <div class="media-subitem">
+                      <ul class="media-list">
+                        <li>2019 베트남-한국 전통의상패션쇼</li>
+                        <li>대한민국 한복모델 선발대회 및 다수 한복모델 대회 수상 </li>
+                        <li>코스메코리아 모델선발대회 뷰티상</li>
+                        <li>세종대왕문화제 홍보대사</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div role="tabpanel" id="media-lang-en" class="tab-pane">
+                  <div class="media-item">
+                    <h3> <i class="fas fa-trophy color_brand"></i> AWARDS </h3>
+                    <div class="media-subitem">
+                      <ul class="media-list">
+                        <li> 2019  Korea Best Brand Awards – The Rising Star: Announcer </li>
+                        <li> 2019  Korea Youth Public Speech Contest - Excellence Speech & Audience Empathy Award by the Member of tthe National Assembly of the Republic of Korea </li>
+                        <li> 2012  1<sup>st</sup> prize at Article of the Year Award by Young Entrepreneurs for Sustainable Society (YeSS)  </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="media-item">
+                    <h3> <i class="fas fa-microphone-alt color_brand"></i> ANNOUNCER / MC / REPORTER </h3>
+                    <div class="media-subitem">
+                      <h4 class="media-subtitle"> <i><u>NEWS</u></i> </h4>
+                      <table class="media-subitem-category">
+                        <tr rowspan="3">
+                          <td class="media-subitem-category-title"> News Announcer  </td>
+                          <td>CBC NEWs</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>SDATV </td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>Dream-on TV </td>
+                        </tr>
+                        <tr rowspan="3">
+                          <td class="media-subitem-category-title"> News Reporter  </td>
+                          <td> Korea TV (KTV) </td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>The Kyunghyang Shinmun (Intern)</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>Korea Employment Information Service (KEIS)</td>
+                        </tr>
+                        <tr>
+                          <td class="media-subitem-category-title">Narrator </td>
+                          <td>Korea Childcare Broadcasting</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="media-subitem">
+                      <h4 class="media-subtitle"> <i><u>SHOW</u></i> </h4>
+                      <table class="media-subitem-category">
+                        <tr>
+                          <td class="media-subitem-category-title"> Weekly Radio Show </td>
+                          <td> Gwanak Community Radio (Producer & MC)</td>
+                        </tr>
+                        <tr>
+                          <td class="media-subitem-category-title"> Commercial Show      </td>
+                          <td>Cuckoo Electronics </td>
+                        </tr>
+                        <tr>
+                          <td class="media-subitem-category-title"> Campaign Show        </td>
+                          <td>D'live 2020 Korea Legislative Election Campaign</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="media-subitem">
+                      <h4 class="media-subtitle"> <i><u>CEREMONY</u></i> </h4>
+                      <table class="media-subitem-category">
+                        <tr rowspan="2">
+                          <td class="media-subitem-category-title"> Conference </td>
+                          <td> UN SDG 4.2 Joint Conference  </td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>KT Cloud Frontier 2019</td>
+                        </tr>
+                        <tr>
+                          <td class="media-subitem-category-title"> Lecture </td>
+                          <td>Seocho Monthly Celebrity Special Lecture by Korean Political Party </td>
+                        </tr>
+                        <tr>
+                          <td class="media-subitem-category-title"> Event </td>
+                          <td>Recruitment of Korea Community Media Foundation</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+
+                  <div class="media-item">
+                    <h3> <i class="fas fa-walking color_brand"></i> Model / Ambassador </h3>
+                    <div class="media-subitem">
+                      <ul class="media-list">
+                        <li>2019 Vietnam-Korean Traditional Clothing Fashion Show Model</li>
+                        <li>Korea Hanbok Model Contest and Other Hanbok Model Contest Winner  </li>
+                        <li>Cosme Korea Model Contest – Beauty Award </li>
+                        <li>Ambassador of the King Sejong Cultural Festival</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <ul id="media-image" class="nav nav-pills" role="tablist">
+                <li role="presentation" class="active"><a href="#media-image-announcer" aria-controls="media-image-announcer" role="tab" data-toggle="tab">Announcer</a></li>
+                <li role="presentation"><a href="#media-image-model" aria-controls="media-image-model" role="tab" data-toggle="tab">Model</a></li>
+              </ul>
+
+              <div class="tab-content">
+                <div role="tabpanel" id="media-image-announcer" class="tab-pane active">
+                  <div class="grid">
+                    <div class="grid-item">
+                      <img src="image/media/announcer/1.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/2.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/3.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/4.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/5.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/6.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/7.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/8.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/9.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/10.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/11.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/12.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/13.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/14.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/15.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/16.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/17.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/18.jpg" class="img-zoomable">
+                    </div>
+                  </div>
+                </div>
+                <div role="tabpanel" id="media-image-model" class="tab-pane">
+                  <div class="grid">
+                    <div class="grid-item-model">
+                      <img src="image/media/model/1.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item-model">
+                      <img src="image/media/model/2.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item-model">
+                      <img src="image/media/model/3.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item-model">
+                      <img src="image/media/model/4.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item-model">
+                      <img src="image/media/model/5.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item-model">
+                      <img src="image/media/model/6.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item-model">
+                      <img src="image/media/model/7.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item-model">
+                      <img src="image/media/model/8.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item-model">
+                      <img src="image/media/model/9.jpg" class="img-zoomable">
+                    </div>
+                    <div class="grid-item-model">
+                      <img src="image/media/model/10.jpg" class="img-zoomable">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer" class="section">
+      <div class="copyright">
+        <p> COPYRIGHT © JIYEON KIM. ALL RIGHTS RESERVED. </p>
+      </div>
+    </div>
+    <button id="btn-back-to-top" title="Go to top">Top</button>
+    <div id="modal-img" class="modal">
+      <span class="btn-close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </body>
+</html>

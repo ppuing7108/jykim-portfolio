@@ -6,9 +6,13 @@ $(window).ready(function(){
     slideMargin: 0
   });
 
+  $('#education .grid').masonry({
+    itemSelector: '.grid-item'
+  }).masonry('layout');
+
    $('#media-image-announcer').children('.grid').masonry({
      itemSelector: '.grid-item'
-   })
+   }).masonry('layout');
 
    //$('#media-image-model').children('.grid').masonry({
   //   itemSelector: '.grid-item-model'

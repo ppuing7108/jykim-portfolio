@@ -282,6 +282,23 @@ div.media-item table.media-subitem-category td {
   color: #DDD;
 }
 
+#footer .contact-info {
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+#footer .contact-info .img-wrapper {
+  width: 60px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+#footer .contact-info .img-wrapper img {
+  width: 100%;
+}
+
 #footer p {
   text-align: center;
   margin-top: 30px;

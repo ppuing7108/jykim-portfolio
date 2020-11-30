@@ -7,7 +7,7 @@ $(window).ready(function(){
   });
 
   $('#education .grid').masonry({
-    itemSelector: '.grid-item'
+    itemSelector: '.grid-item-home'
   }).masonry('layout');
 
    $('#media-image-announcer').children('.grid').masonry({

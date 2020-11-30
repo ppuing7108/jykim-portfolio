@@ -6,24 +6,26 @@ $(window).ready(function(){
     slideMargin: 0
   });
 
-  $('#education .grid').masonry({
-    itemSelector: '.grid-item-home'
-  }).masonry('layout');
+  var $grid_home = $('#education .grid');
+  $grid_home.imagesLoaded().progress(function() {
+    $grid_home.masonry({
+      itemSelector: '.grid-item-home'
+    }).masonry('layout');;
+  });
 
-   $('#media-image-announcer').children('.grid').masonry({
-     itemSelector: '.grid-item'
-   }).masonry('layout');
-
-   //$('#media-image-model').children('.grid').masonry({
-  //   itemSelector: '.grid-item-model'
-   //})
+  var $grid_media_announcer = $('#media-image-announcer .grid');
+  $grid_media_announcer.imagesLoaded().progress(function() {
+    $grid_media_announcer.masonry({
+      itemSelector: '.grid-item'
+    }).masonry('layout');;
+  });
 
    $('#media-image a').on('shown.bs.tab', function(e){
      console.log($(this).attr('href'));
      var target = $(this).attr('href');
      console.log($(target).children('.grid'));
      $(target).children('.grid').masonry({
-       itemSelector: '.grid-item-model'
+       itemSelector: '.grid-item'
      }).masonry('layout');
    });
 
@@ -65,7 +67,7 @@ $(window).ready(function(){
     modal.css('display','block');
     modalImg.attr('src', $(this).attr('src'));
     captionText.innerHTML = this.alt;
-  })
+  });
 
   // When the user clicks on <span> (x), close the modal
   $(".btn-close").click(function(){

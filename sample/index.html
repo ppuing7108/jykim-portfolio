@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/all.css" rel="stylesheet"> <!--load all styles -->
     <link rel="stylesheet" href="css/lightslider.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css">
     <link rel="stylesheet" href="css/main.css">
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -32,21 +33,21 @@
     <nav id="nav" class="navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button id="navbar-collapse-button" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><span class="color_brand">JI YEON</span> KIM</a>
+          <a class="navbar-brand font-title" href="#"><span class="color_brand">Ji Yeon</span> Kim</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#media">Media</a></li>
-            <li><a href="mailto:jiyeonkim.net@gmail.com">Contact</a></li>
-            <li class="youtube"><a href="https://www.youtube.com/channel/UCN4GR_ogX5y-T3pwsll54eA/" target="_blank"><i class="fab fa-youtube"></i> Youtube</a></li>
+            <li><a href="#home" class="font-trajan">Home</a></li>
+            <li><a href="#education" class="font-trajan">Education</a></li>
+            <li><a href="#media" class="font-trajan">Media</a></li>
+            <li><a href="mailto:jiyeonkim.net@gmail.com" class="font-trajan">Contact</a></li>
+            <li class="youtube font-trajan"><a href="https://www.youtube.com/channel/UCN4GR_ogX5y-T3pwsll54eA/" target="_blank"><i class="fab fa-youtube"></i> Youtube</a></li>
           </ul>
         </div>
       </div>
@@ -103,21 +104,27 @@
               <div class="grid-item-home">
                 <img src="image/profile/8.jpg" class="img-zoomable">
               </div>
+              <div class="grid-item-home">
+                <img src="image/profile/9.jpg" class="img-zoomable">
+              </div>
+              <div class="grid-item-home">
+                <img src="image/profile/10.jpg" class="img-zoomable">
+              </div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6">
             <div class="namespace">
-              <h2> Ji Yeon Kim </h2>
-              <h3> 김지연 (金祉延) </h3>
+              <h2 class="font-trajan"> Ji Yeon Kim </h2>
+              <h3 class="font-serif"><b> 김지연 (金祉延) </b></h3>
             </div>
 
             <ul id="profile-language" class="nav nav-pills" role="tablist">
-              <li role="presentation" class="active"><a href="#profile-lang-ko" aria-controls="profile-lang-ko" role="tab" data-toggle="tab">한국어</a></li>
-              <li role="presentation"><a href="#profile-lang-en" aria-controls="profile-lang-en" role="tab" data-toggle="tab">ENGLISH</a></li>
+              <li role="presentation" class="active"><a href="#profile-lang-ko" aria-controls="profile-lang-ko" role="tab" data-toggle="tab" class="font-nanum-gothic-light">한국어</a></li>
+              <li role="presentation"><a href="#profile-lang-en" aria-controls="profile-lang-en" role="tab" data-toggle="tab" class="font-georgia">ENGLISH</a></li>
             </ul>
 
             <div class="tab-content">
-              <div role="tabpanel" id="profile-lang-ko" class="tab-pane active">
+              <div role="tabpanel" id="profile-lang-ko" class="tab-pane active font-nanum-gothic-light">
                 <div class="profile-item">
                   <h3> <i class="fas fa-graduation-cap color_brand"></i> 학력 </h3>
                   <ul class="profile-list">
@@ -136,6 +143,13 @@
                     <li> 육아정책연구소 아이폴 최우수정책제안상 </li>
                     <li> BK21플러스 성적우수 장학금 </li>
                     <li>배움 교육 성적우수상 및 장학금</li>
+                  </ul>
+                </div>
+
+                <div class="profile-item">
+                  <h3> <i class="fas fa-book color_brand"></i> 출판 </h3>
+                  <ul class="profile-list">
+                    <li> 한국열린유아교육학회 학술대회 포스터발표 </li>
                   </ul>
                 </div>
 
@@ -172,10 +186,12 @@
                     <li> 서울시립어린이병원 재활병동 및 발달센터 </li>
                     <li> 국립중앙도서관 장애인정보누리터 </li>
                     <li> 한국자폐인사랑협회 인식개선캠페인  </li>
+                    <li>국제앰네스티 한국지부 차별인식개선 프로그램 </li>
+                    <li>서리풀페스티벌 서초청년아트마켓 (자선단체 사랑의 달팽이에 수익금 기부) </li>
                   </ul>
                 </div>
               </div>
-              <div role="tabpanel" id="profile-lang-en" class="tab-pane">
+              <div role="tabpanel" id="profile-lang-en" class="tab-pane font-times-new-roman">
                 <div class="profile-item">
                   <h3> <i class="fas fa-graduation-cap color_brand"></i> EDUCATION </h3>
                   <ul class="profile-list">
@@ -230,6 +246,8 @@
                     <li> Seoul Child Hospital Rehabilitation Ward & Development Center  </li>
                     <li> Information center for the disabled on National Library in Korea  </li>
                     <li> Awareness Campaign on Autism Society for Korea  </li>
+                    <li> Discrimination Awareness Program on Amnesty Korea </li>
+                    <li> Seocho Youth Art Market in Seoripool Festival (Donated all proceeds to Hearing loss charity The Snail of Love) </li>
                   </ul>
                 </div>
               </div>
@@ -244,12 +262,12 @@
           <div class="row">
             <div class="col-xs-12 col-sm-6">
               <ul id="media-language" class="nav nav-pills" role="tablist">
-                <li role="presentation" class="active"><a href="#media-lang-ko" aria-controls="media-lang-ko" role="tab" data-toggle="tab">한국어</a></li>
-                <li role="presentation"><a href="#media-lang-en" aria-controls="media-lang-en" role="tab" data-toggle="tab">ENGLISH</a></li>
+                <li role="presentation" class="active"><a href="#media-lang-ko" aria-controls="media-lang-ko" role="tab" data-toggle="tab" class="font-nanum-gothic-light">한국어</a></li>
+                <li role="presentation"><a href="#media-lang-en" aria-controls="media-lang-en" role="tab" data-toggle="tab" class="font-georgia">ENGLISH</a></li>
               </ul>
 
               <div class="tab-content">
-                <div role="tabpanel" id="media-lang-ko" class="tab-pane active">
+                <div role="tabpanel" id="media-lang-ko" class="tab-pane active font-nanum-gothic-light">
                   <div class="media-item">
                     <h3> <i class="fas fa-trophy color_brand"></i> 수상 </h3>
                     <div class="media-subitem">
@@ -290,9 +308,13 @@
                           <td></td>
                           <td>한국고용정보원(리포터)</td>
                         </tr>
-                        <tr>
+                        <tr rowspan="2">
                           <td class="media-subitem-category-title">내레이터</td>
                           <td>육아방송</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>국회의원선거 후보자 홍보영상</td>
                         </tr>
                       </table>
                     </div>
@@ -348,7 +370,7 @@
                     </div>
                   </div>
                 </div>
-                <div role="tabpanel" id="media-lang-en" class="tab-pane">
+                <div role="tabpanel" id="media-lang-en" class="tab-pane font-times-new-roman">
                   <div class="media-item">
                     <h3> <i class="fas fa-trophy color_brand"></i> AWARDS </h3>
                     <div class="media-subitem">
@@ -389,9 +411,13 @@
                           <td></td>
                           <td>Korea Employment Information Service (KEIS)</td>
                         </tr>
-                        <tr>
+                        <tr rowspan="2">
                           <td class="media-subitem-category-title">Narrator </td>
                           <td>Korea Childcare Broadcasting</td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>Promotional Video for Candidates for the National Assembly Election</td>
                         </tr>
                       </table>
                     </div>
@@ -512,6 +538,9 @@
                     <div class="grid-item">
                       <img src="image/media/announcer/18.jpg" class="img-zoomable">
                     </div>
+                    <div class="grid-item">
+                      <img src="image/media/announcer/19.jpg" class="img-zoomable">
+                    </div>
                   </div>
                 </div>
                 <div role="tabpanel" id="media-image-model" class="tab-pane">
@@ -553,6 +582,27 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div id="thanks" class="section">
+      <!--<img src="image/home/home.jpg">-->
+      <ul id="light-slider-footer">
+        <li>
+          <img src="image/footer/1.jpg">
+        </li>
+        <li>
+          <img src="image/footer/2.jpg">
+        </li>
+        <li>
+          <img src="image/footer/3.jpg">
+        </li>
+        <li>
+          <img src="image/footer/4.jpg">
+        </li>
+        <li>
+          <img src="image/footer/5.jpg">
+        </li>
+      </ul>
     </div>
 
     <div id="footer" class="section">

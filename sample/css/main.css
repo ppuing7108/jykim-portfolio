@@ -1,3 +1,16 @@
+@font-face {
+	font-family: 'imperatorsmallcaps';
+	src: url('./fonts/ImperatorSmallCapsBold.eot');
+	src: local('ImperatorSmallCapsBold'), url('./fonts/ImperatorSmallCapsBold.woff') format('woff'), url('./ImperatorSmallCapsBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Trajan Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('TrajanPro3Regular'), url('./fonts/TrajanPro3Regular.woff') format('woff');
+    }
+
 body {
   color: #666;
   background-color: #FdFdFd;
@@ -48,6 +61,35 @@ a:hover {
   color: #FF0000;
 }
 
+#navbar-collapse-button span {
+  color: #555555;
+  border: 1px solid #555555;
+}
+
+.font-title {
+  font-family: "imperatorsmallcaps";
+}
+
+.font-georgia {
+  font-family: Georgia, serif;
+}
+
+.font-trajan {
+  font-family: "Trajan Pro Regular";
+}
+
+.font-times-new-roman {
+  font-family: "Times New Roman", serif;
+}
+
+.font-nanum-gothic-light {
+  font-family: 'NanumBarunGothic';
+}
+
+.font-serif {
+  font-family: serif;
+}
+
 #home {
   /*background-image: url('../image/home/home.jpg');
   height: 500px;
@@ -58,6 +100,15 @@ a:hover {
 }
 
 #home img {
+  width: 100%;
+}
+
+#thanks {
+  padding-top: 0;
+  background-color: #666;
+}
+
+#thanks img {
   width: 100%;
 }
 

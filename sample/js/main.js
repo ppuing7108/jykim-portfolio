@@ -6,6 +6,13 @@ $(window).ready(function(){
     slideMargin: 0
   });
 
+  $("#light-slider-footer").lightSlider({
+    loop: true,
+    auto: true,
+    pause: 5000,
+    slideMargin: 0
+  });
+
   var $grid_home = $('#education .grid');
   $grid_home.imagesLoaded().progress(function() {
     $grid_home.masonry({

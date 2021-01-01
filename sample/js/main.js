@@ -1,11 +1,4 @@
 $(window).ready(function(){
-  $("#light-slider").lightSlider({
-    loop: true,
-    auto: true,
-    pause: 5000,
-    slideMargin: 0
-  });
-
   $("#light-slider-footer").lightSlider({
     loop: true,
     auto: true,

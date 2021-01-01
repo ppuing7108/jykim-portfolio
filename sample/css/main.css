@@ -12,13 +12,13 @@
     }
 
 body {
-  color: #666;
+  color: #333;
   background-color: #FdFdFd;
 }
 
 h1 {
-  color: #888;
-  font-size: 28px;
+  color: #666;
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -70,24 +70,28 @@ a:hover {
   font-family: "imperatorsmallcaps";
 }
 
-.font-georgia {
+.font-georgia, .font-georgia li {
   font-family: Georgia, serif;
+	line-height: 1.4 !important;
 }
 
-.font-trajan {
+.font-trajan, .font-trajan li {
   font-family: "Trajan Pro Regular";
+	line-height: 1.4 !important;
 }
 
-.font-times-new-roman {
+.font-times-new-roman, .font-times-new-roman li {
   font-family: "Times New Roman", serif;
+	line-height: 1.4 !important;
 }
 
 .font-nanum-gothic-light {
   font-family: 'NanumBarunGothic';
 }
 
-.font-serif {
+.font-serif, .font-serif li {
   font-family: serif;
+	line-height: 1.4 !important;
 }
 
 #home {
@@ -101,6 +105,29 @@ a:hover {
 
 #home img {
   width: 100%;
+}
+
+#gallery {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#gallery #gallery-tabs button {
+	display: inline;
+	font-size: 30px;
+	height: 80px;
+	background-color: #FAA0C7;
+	border: none;
+	border-radius: 0px;
+	color: #fff;
+}
+
+#gallery #gallery-tabs button.active,
+#gallery #gallery-tabs button:hover {
+	display: inline;
+	font-size: 30px;
+	height: 80px;
+	background-color: #EC83B1;
 }
 
 #thanks {
@@ -133,6 +160,11 @@ a.navbar-brand {
 div.section {
   padding-bottom: 50px;
   padding-top: 50px;
+}
+
+div.section h1 {
+	text-align: center;
+	margin-bottom: 25px;
 }
 
 div.row.imagetiles {
@@ -169,7 +201,7 @@ div.namespace {
 }
 
 div.namespace h2 {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 #profile-language, #media-language, #media-image {
@@ -219,9 +251,14 @@ div.media-item div.media-subitem {
   margin-top: 25px;
 }
 
+td {
+	vertical-align: top;
+}
+
 div.media-item table.media-subitem-category td.media-subitem-category-title {
   font-weight: bold;
   padding-left: 0;
+	min-width: 142px;
 }
 
 div.media-item table.media-subitem-category td {

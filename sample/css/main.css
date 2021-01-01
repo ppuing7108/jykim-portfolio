@@ -110,8 +110,22 @@ a:hover {
 	text-align: center;
 }
 
+#home.intro p.first-sentence {
+	margin-top: 100px;
+}
+
+@media only screen and (max-width: 1199px) {
+	#home.intro p.first-sentence {
+		margin-top: 0px;
+	}
+}
+
 #home.intro p {
 	margin-bottom: 25px;
+}
+
+#home.intro p.hidden-xs {
+	margin-top: 100px;
 }
 
 #home.intro p.visible-xs {
@@ -142,8 +156,8 @@ a:hover {
 
 #gallery #gallery-tabs button {
 	display: inline;
-	font-size: 30px;
-	height: 80px;
+	font-size: 22px;
+	height: 60px;
 	background-color: #FAA0C7;
 	border: none;
 	border-radius: 0px;
@@ -153,8 +167,8 @@ a:hover {
 #gallery #gallery-tabs button.active,
 #gallery #gallery-tabs button:hover {
 	display: inline;
-	font-size: 30px;
-	height: 80px;
+	font-size: 22px;
+	height: 60px;
 	background-color: #EC83B1;
 }
 

@@ -120,6 +120,13 @@ a:hover {
 	}
 }
 
+@media only screen and (max-width: 767px) {
+	#home.intro  {
+		font-size: 18px;
+		text-align: left;
+	}
+}
+
 #home.intro p {
 	margin-bottom: 25px;
 }

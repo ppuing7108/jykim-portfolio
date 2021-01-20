@@ -125,6 +125,10 @@ a:hover {
 		font-size: 18px;
 		text-align: left;
 	}
+
+	#home.intro .row {
+		margin-bottom: 15px;
+	}
 }
 
 #home.intro p {

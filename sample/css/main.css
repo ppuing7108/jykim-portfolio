@@ -232,6 +232,7 @@ div.row.imagetiles img {
 
 .grid div {
   width: 33.33%;
+	padding: 3px
 }
 
 .grid img {
@@ -312,6 +313,10 @@ div.media-item table.media-subitem-category td {
   padding-left: 25px;
   line-height: 29px;
   font-size: 16px;
+}
+
+#media-lang-en div.media-item table.media-subitem-category td {
+	line-height: 24px;
 }
 
 #btn-back-to-top {

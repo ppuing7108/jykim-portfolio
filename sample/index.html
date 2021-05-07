@@ -691,5 +691,13 @@
       <div id="caption"></div>
     </div>
     <script src="js/main.js"></script>
+    <script>
+    console.log("hh", window.location.hostname);
+    if(window.location.hostname == "jiyeonkim.net") {
+      $('body').attr("oncontextmenu", "return false");
+      $('body').attr("onselectstart", "return false");
+      $('body').attr("ondragstart", "return false");
+    }
+    </script>
   </body>
 </html>

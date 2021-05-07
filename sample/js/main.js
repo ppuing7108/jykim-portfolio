@@ -1,11 +1,4 @@
 $(window).ready(function(){
-  console.log(window.location.hostname);
-  if(window.location.hostname == "jiyeonkim.net") {
-    $('body').attr("oncontextmenu", "return false");
-    $('body').attr("onselectstart", "return false");
-    $('body').attr("ondragstart", "return false");
-  }
-
   $("#light-slider-footer").lightSlider({
     loop: true,
     auto: true,

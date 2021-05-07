@@ -74,4 +74,9 @@ $(window).ready(function(){
     modal.css('display', 'none');
   });
    // END IMG MODAL
+   if(window.location.hostname == "jiyeonkim.net") {
+     $('body').attr("oncontextmenu", "return false");
+     $('body').attr("onselectstart", "return false");
+     $('body').attr("ondragstart", "return false");
+   }
 });
